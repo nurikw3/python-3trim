@@ -23,7 +23,7 @@ class Movie:
 
     @property
     def is_recommended(self) -> bool:
-        return self.rating >= 8
+        return self.rating >= 9
 
     def to_dict(self) -> dict[str, any]:
         return asdict(self)
